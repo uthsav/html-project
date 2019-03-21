@@ -1,0 +1,108 @@
+          body{
+          margin: auto;
+          padding: 0px;
+          overflow-x:hidden;
+          }
+
+          /*logo*/
+
+          .logo{
+          height: 2%;
+          width: 70px;
+          padding-top: 25%;
+          margin-left: 489%;
+          }
+
+          /*navbar*/
+
+          .navbar-default{
+          margin-top: -20px !important;
+          background-color: maroon;
+          color: white;
+          }
+
+          .top-align {
+          margin-top: -20px !important;
+          }
+
+          .background-colour {
+              background-color: maroon;
+          }
+
+          .background-color{
+            background-color: maroon;
+          }
+
+          .padding-right{
+                color: white;
+                font-size: 235%;
+
+          }
+
+        /*silde images*/
+
+         .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 50px;
+          text-align: center;
+          color: white;
+        }
+
+        
+
+        /*carosal*/
+        .row-margin{
+           margin-top: -22px;
+
+        }
+
+        /*grid image*/
+
+        #mar-right{
+           margin-right: 40px;
+            height: 100px;
+        }
+
+      #news{
+        color: black;
+      padding-left: 90px;
+
+      }
+
+      .divide-pic{
+      padding-left: 7px;
+
+      }
+
+      #gap{
+        padding-top: 65px;
+        padding-left: 35px;
+          }
+
+    .row{
+        padding-left: 100px;
+    }
+
+    .column {
+    float: right;
+    width: 20.33%;
+    padding: 2px;
+  }
+
+    .video_wrapper{
+
+        margin-top: 30px;
+
+    }
+
+    .Background-video{
+          background-color: #363636;
+        margin-left: 8%;
+        margin-right: -2%;
+        color: white;
+    }
+
+
