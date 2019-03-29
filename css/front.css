@@ -1,108 +1,181 @@
-          body{
-          margin: auto;
-          padding: 0px;
-          overflow-x:hidden;
-          }
-
-          /*logo*/
-
-          .logo{
-          height: 2%;
-          width: 70px;
-          padding-top: 25%;
-          margin-left: 489%;
-          }
-
-          /*navbar*/
-
-          .navbar-default{
-          margin-top: -20px !important;
-          background-color: maroon;
-          color: white;
-          }
-
-          .top-align {
-          margin-top: -20px !important;
-          }
-
-          .background-colour {
-              background-color: maroon;
-          }
-
-          .background-color{
-            background-color: maroon;
-          }
-
-          .padding-right{
-                color: white;
-                font-size: 235%;
-
-          }
-
-        /*silde images*/
-
-         .centered {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 50px;
-          text-align: center;
-          color: white;
-        }
-
-        
-
-        /*carosal*/
-        .row-margin{
-           margin-top: -22px;
-
-        }
-
-        /*grid image*/
-
-        #mar-right{
-           margin-right: 40px;
-            height: 100px;
-        }
-
-      #news{
-        color: black;
-      padding-left: 90px;
-
-      }
-
-      .divide-pic{
-      padding-left: 7px;
-
-      }
-
-      #gap{
-        padding-top: 65px;
-        padding-left: 35px;
-          }
-
-    .row{
-        padding-left: 100px;
-    }
-
-    .column {
-    float: right;
-    width: 20.33%;
-    padding: 2px;
+   body{
+   margin: auto;
+   padding: 0px;
+   overflow-x:hidden;
   }
 
-    .video_wrapper{
+   /*logo*/
 
-        margin-top: 30px;
+   .logo{
+   height: 2%;
+  width: 70px;
+  padding-top: 25%;
+  /*margin-left: 489%;*/
+      margin-left: 631%;
 
+  }
+   /*navbar*/
+   .navbar-default{
+   margin-top: -20px !important;
+  background-color: maroon;
+  color: white;
     }
 
-    .Background-video{
-          background-color: #363636;
-        margin-left: 8%;
-        margin-right: -2%;
-        color: white;
+   .top-align {
+   margin-top: -20px !important;
+  }
+
+.navbar-default.navbar-custom .navbar-nav>li>a {
+    color: white;
+  }
+
+  .padding-right{
+    color: white;
+    font-size: 235%;
+   }
+
+   /*silde images*/
+
+  .centered {
+   position: absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 50px;
+  text-align: center;
+  color: white;
+   }
+
+   /*carosal*/
+  .row-margin{
+   margin-top: -22px;
+   }
+
+  /*grid image*/
+   #mar-right{
+     margin-right: 40px;
+  height: 100px;
+   }
+
+   .fon{
+      line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+
+   }
+.fon1{
+    line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+}
+
+
+.fon2{
+  line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+}
+
+
+  #news{
+   color: black;
+  /*padding-left: 90px;*/
+  padding-left: 20px;
+   }
+
+   #left{
+     padding-left: 20px;
+   margin-left: -42px;
     }
 
+   .divide-pic{
+    padding-left: 7px;
+   }
 
+  #gap{
+   padding-top: 65px;
+   padding-left: 35px;
+   }
+
+   .row{
+   padding-left: 100px;
+    }
+
+   .column {
+   float: right;
+   width: 20.33%;
+   padding: 2px;
+   }
+
+  .video_wrapper{
+   margin-top: 30px;
+  }
+
+  .fon3{
+    line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+  }
+
+  .Background-video{
+   background-color: #363636;
+   /*margin-left: 8%;*/
+    margin-right: -2%;
+    color: white;
+     margin-left: 0px;
+      }
+
+  #spot{
+    padding-left: 100px;
+     }
+
+   .background-spot{
+    background-color: burlywood;
+    /*margin-left: 89px;*/
+      margin-left: 0px;
+  }
+
+  #icon{
+  margin-top: 26px;
+   margin-left: 240px;
+  }
+            
+  #tagname{
+   margin-top: 14px;
+  padding-left: 229px;
+   }
+
+   #final{
+    padding-left: 42px;
+    padding-top: 20px
+       }
+
+.fon5{
+  line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+}
+
+.fon6{
+  line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+}
+
+.fon7{
+  line-height: 2.0em;
+     font-weight: 400;
+     letter-spacing: normal;
+}
+
+
+
+
+.circle{
+    margin-left: 64px;
+}
+
+.bcolo{
+  background-color: gray;
+  
+}

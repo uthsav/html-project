@@ -1,0 +1,25 @@
+	body{
+		   overflow-x:hidden;
+		  }
+
+	.reg{
+		 background-color: maroon;
+	    color: white;
+	}
+	
+.navbar-default.navbar-custom .navbar-nav>li>a {
+    color: white;
+  }
+
+	.padding{
+	    margin-left: 25px;
+	    padding-top: 5%;
+	    background-color: gainsboro;
+	    color: black;
+
+	}
+
+	.sub{
+		    margin-left: 89%;
+	    margin-top: 3%
+	}

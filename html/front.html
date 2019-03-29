@@ -9,8 +9,6 @@
         <link rel="stylesheet" as="style" media="all" href="../css/front.css" onload="this.onload=null;this.rel='stylesheet'">
       </head>
       <body>
-        <div class="container">
-          <div class="row">
             <div class="navbar navbar-default">
               <div class="container-fluid background-colour">
                 <div class="navbar-header">
@@ -19,29 +17,27 @@
                <center class="padding-right"><h1>UNIVERSITY OF</h1><p2>CHICAGO</p2></center>
              </div>
            </div>
-         </div>
 
 
          <!-- navbar begins here-->
 
-         <div class="row">
-          <nav class="navbar navbar-default top-align">
-
+          <nav class="navbar navbar-default top-align navbar-custom">
             <div class="navbar-header">
-
               <ul class="nav navbar-nav">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="aboutPage.html">ABOUT</a></li>
                 <li><a href="#">ADMISSION&AID</a></li>
                 <li><a href="#">ACADEMICS</a></li>
+                <li><a href="campus.html">CAMPUS LIFE</a></li>
+                <li><a href="form.html">RESGISTRATION FORM</a></li>
               </ul>
             </div>
           </nav>
-        </div>
+        <!-- </div> -->
 
         <!-- <h2>Carousel</h2>  -->
-
-        <div class="row row-margin" > 
+        <div class="container">
+        <div class="row row-margin" style="padding-left: 10px;" > 
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -84,27 +80,28 @@
           <!-- </div> -->
         </div>
 
+
         <div class="row" id="news">
+          <div class="col-sm-12">
           <a href="https://news.uchicago.edu/"><h1>UChicago News</h1></a>
         </div>
+      </div>
 
         <!---grid-->
-        <div class="row">
+        <div class="row" id="left">
           <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-          <img src="../image/cam.jpg">
-          <p>The fourth year  to research nuclear policy in washington</p>
+          <img src="../image/cam.jpg" width="370">
+          <p class="fon">The fourth year  to research nuclear policy in washington</p>
         </div>
         <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-          <img src="../image/cam1.jpg">
-          <p>Fermilab,partner break ground on particle accelereator to study ghost</p>
-
+          <img src="../image/cam1.jpg" width="370">
+          <p class="fon1">Fermilab,partner break ground on particle accelereator to study ghost</p>
         </div>
         <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-          <img src="../image/cam2.jpg">
-          <p>New programs supports veterans who support UIchicago
+          <img src="../image/cam2.jpg" width="370">
+          <p class="fon2">New programs supports veterans who support UIchicago</p>
           </div>
         </div>
-      
 
       <!--video-->
 
@@ -117,20 +114,66 @@
         </div>
         <div class="col-lg-3 col-md-5 col-sm-6">
           <h2>Explore Chicago </h2>
-          <p>Discover the global city UChicago calls home—filled with inspiration, innovation, and countless opportunities to explore.</p>
+          <p class="fon3">Discover the global city UChicago calls home—filled with inspiration, innovation, and countless opportunities to explore.</p>
         </div>
-        
+        </div>
+     <!-- </div> -->
+
+
+      <div class="row" id="spot">
+      <h1>spotlight</h1>
+        </div>
+        <div class="row background-spot ">
+          <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+            <img src="../image/arts.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150"> 
+          <p>The Arts</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+          <img src="../image/athletics.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150"> 
+          <p>Athletics</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+          <img src="../image/freeexpression.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150"> 
+          <p>Free Expression</p>
+          </div>
+        </div>
+      <!-- </div> -->
+      <!-- changes -->
+
+      <div class="row" id="final">
+        <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+          <img src="../image/campaign.png" width="300" height="200">
+          <p class="fon5">The campaign aims to raise $5 billion 
+            and engage 125,000 alumni to support UChicago 
+            faculty and students as they define future 
+            inquiry and its impact on lives worldwide.</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+          <img src="../image/campus1.jpg" width="300" height="200">
+          <p class="fon6">Plan your visit to the University of Chicago campus and Hyde Park neighborhood by reading about our architectural sites, local shops and restaurants, and special events.</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+          <img src="../image/camp.jpg" width="300" height="200">
+          <p class="fon7">Plan your visit to the University of Chicago campus and Hyde Park neighborhood by reading about our architectural sites, local shops and restaurants, and special events.</p>
+        </div>
       </div>
-    
 
-    
-    </div>
-
-
-
-
-
+        <div class="row bcolo">
+          <div class="col-sm-3"id="tagname">
+            <h2>"UChicago"<b>Social</b></h2>
+        </div>
+          <div class="col-sm-6"id="icon">
+            <a href="https://www.facebook.com/uchicago/" class="facebook"><img src="../image/facebook.png" width="50" height="50"</a></li>
+             <a href="https://www.twitter.com/uchicago/" class="Twitter"><img src="../image/twitt.png" width="50" height="50"</a>
+             <a href="https://www.youtube.com/uchicago/" class="Youtube"><img src="../image/youtube.png" width="50" height="50"</a>
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      <!-- </div> -->
 
   </div>
   </body>
   </html>
+
+
